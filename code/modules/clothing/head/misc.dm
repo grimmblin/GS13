@@ -412,3 +412,9 @@
 		if(prob(3))
 			message += pick(" Honh honh honh!"," Honh!"," Zut Alors!")
 	speech_args[SPEECH_MESSAGE] = trim(message)
+
+/obj/item/clothing/head/widebrim
+	name = "wide brimmed hat"
+	desc = "A wide-brimmed hat, to keep the sun out of your eyes in style."
+	icon_state = "widebrim"
+	item_state = "widebrim"
